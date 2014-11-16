@@ -1,20 +1,27 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TriangleUnitTest;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Linq;
+using TriangleUnitTest;
 
 namespace Triangle_Tests {
+
+	/// <summary>
+	/// Unit test class for testing the Triangle class.
+	/// </summary>
 	[TestClass]
 	public class Triangle_Test {
 
 		List<Triangle> TArray = new List<Triangle>() {
-			new Triangle(5 , 5 , 5) ,
-			new Triangle(2 , 3 , 2) ,
-			new Triangle(3 , 4 , 5) ,
-			new Triangle(4 , 2 , 1)
+			new Triangle(5 , 5 , 5) ,	//. Is an Equilateral triangle
+			new Triangle(2 , 3 , 2) ,	//. Is an Isosceles triangle
+			new Triangle(3 , 4 , 5) ,	//. Is a Scalene triangle
+			new Triangle(4 , 2 , 1)		//. Is not a triangle at all
 		};
 
+
+		/// <summary>
+		/// Test the methed IsTriangle for returning the proper result.
+		/// </summary>
 		[TestMethod]
 		public void IsTriangle_Test() {
 			var expected = 3;
@@ -23,6 +30,9 @@ namespace Triangle_Tests {
 			Assert.AreEqual(expected , actual);
 		}
 
+		/// <summary>
+		/// Tests the method IsEquilateral for returning the proper result.
+		/// </summary>
 		[TestMethod]
 		public void IsEquilateral_Test() {
 			var expected = 1;
@@ -35,6 +45,9 @@ namespace Triangle_Tests {
 			}
 		}
 
+		/// <summary>
+		/// Tests the method IsIsosceles for returning the proper result.
+		/// </summary>
 		[TestMethod]
 		public void IsIsosceles_Test() {
 			var expected = 1;
@@ -47,6 +60,9 @@ namespace Triangle_Tests {
 			}
 		}
 
+		/// <summary>
+		/// Tests the method IsScalene for returning the proper result.
+		/// </summary>
 		[TestMethod]
 		public void IsScalene_Test() {
 			var expected = 1;

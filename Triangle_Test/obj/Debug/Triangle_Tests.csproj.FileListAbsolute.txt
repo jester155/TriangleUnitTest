@@ -5,3 +5,10 @@ D:\Programming\TriangleUnitTest\Triangle_Test\bin\Debug\TriangleUnitTest.pdb
 D:\Programming\TriangleUnitTest\Triangle_Test\obj\Debug\Triangle_Tests.csprojResolveAssemblyReference.cache
 D:\Programming\TriangleUnitTest\Triangle_Test\obj\Debug\Triangle_Test.dll
 D:\Programming\TriangleUnitTest\Triangle_Test\obj\Debug\Triangle_Test.pdb
+D:\Programming\GitHub\TriangleUnitTest\Triangle_Test\bin\Debug\Triangle_Test.dll
+D:\Programming\GitHub\TriangleUnitTest\Triangle_Test\bin\Debug\Triangle_Test.pdb
+D:\Programming\GitHub\TriangleUnitTest\Triangle_Test\bin\Debug\TriangleUnitTest.exe
+D:\Programming\GitHub\TriangleUnitTest\Triangle_Test\bin\Debug\TriangleUnitTest.pdb
+D:\Programming\GitHub\TriangleUnitTest\Triangle_Test\obj\Debug\Triangle_Tests.csprojResolveAssemblyReference.cache
+D:\Programming\GitHub\TriangleUnitTest\Triangle_Test\obj\Debug\Triangle_Test.dll
+D:\Programming\GitHub\TriangleUnitTest\Triangle_Test\obj\Debug\Triangle_Test.pdb
