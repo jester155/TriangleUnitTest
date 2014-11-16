@@ -69,17 +69,17 @@ namespace TriangleUnitTest {
 		}
 
 		/// <summary>
-		/// Checks to see if the three sides make up an equilateral triangle.
+		/// Checks to see if the three sides make up an Equilateral triangle.
 		/// </summary>
-		/// <returns>Returns if the triangle is equalaterial.</returns>
+		/// <returns>Returns if the triangle is Equilateral.</returns>
 		public bool IsEquilateral() {
 			return SideA == SideB && SideB == SideC && SideC == SideA ? true : false; 
 		}
 
 		/// <summary>
-		/// Checks to see if the three sides make up an isosceles triangle.
+		/// Checks to see if the three sides make up an Isosceles triangle.
 		/// </summary>
-		/// <returns>Returns if the triangle is isosoceles</returns>
+		/// <returns>Returns if the triangle is Isosceles</returns>
 		public bool IsIsosceles() {
 			var sides = new List<int>() { SideA , SideB , SideC };
 			var count = 0;
@@ -97,9 +97,9 @@ namespace TriangleUnitTest {
 		}
 
 		/// <summary>
-		/// Checks to see if the three sides make up a scalene triangle.
+		/// Checks to see if the three sides make up a Scalene triangle.
 		/// </summary>
-		/// <returns>Returns if the triangle is scalene</returns>
+		/// <returns>Returns if the triangle is Scalene</returns>
 		public bool IsScalene() {
 			return SideA != SideB && SideB != SideC && SideC != SideA ? true : false; 
 		}
